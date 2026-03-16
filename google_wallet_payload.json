@@ -1,0 +1,67 @@
+{
+  "iss": "voter-wallet@voter-wallet-2026.iam.gserviceaccount.com",
+  "aud": "google",
+  "typ": "savetowallet",
+  "iat": 1773683313,
+  "payload": {
+    "genericObjects": [
+      {
+        "id": "3388000000022795671.ri-voter-card-jane-smith-2026",
+        "classId": "3388000000022795671.ri_voter_class_2026",
+        "genericType": "GENERIC_TYPE_UNSPECIFIED",
+        "hexBackgroundColor": "#0a1628",
+        "logo": {
+          "sourceUri": {
+            "uri": "https://vote.rifirstvote.com/assets/ri-first-action-logo.png"
+          }
+        },
+        "cardTitle": {
+          "defaultValue": {
+            "language": "en-US",
+            "value": "RI First Action Turnout"
+          }
+        },
+        "subheader": {
+          "defaultValue": {
+            "language": "en-US",
+            "value": "Voter Card 2026"
+          }
+        },
+        "header": {
+          "defaultValue": {
+            "language": "en-US",
+            "value": "Jane Smith"
+          }
+        },
+        "textModulesData": [
+          {
+            "id": "district",
+            "header": "DISTRICT",
+            "body": "RI-02"
+          },
+          {
+            "id": "election",
+            "header": "ELECTION DAY",
+            "body": "Nov 3, 2026 | Polls 7 AM-8 PM"
+          },
+          {
+            "id": "polling",
+            "header": "POLLING PLACE",
+            "body": "South Kingstown Town Hall\n180 High Street, SK RI 02879"
+          },
+          {
+            "id": "early",
+            "header": "EARLY VOTING",
+            "body": "Oct 22 - Nov 1, 2026"
+          }
+        ],
+        "barcode": {
+          "type": "QR_CODE",
+          "value": "jane-smith-ri02-2026",
+          "alternateText": "RI-02"
+        },
+        "state": "ACTIVE"
+      }
+    ]
+  }
+}
